@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_221" class="java.beans.XMLDecoder">
+ <object class="br.com.hbsis.model.Pessoa">
+  <void property="id">
+   <int>1</int>
+  </void>
+  <void property="idade">
+   <int>40</int>
+  </void>
+  <void property="magias">
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="br.com.hbsis.model.Magia">
+      <void property="descricao">
+       <string>A telekinetic wave that can stun or knock down enemies and destroy weak obstacles</string>
+      </void>
+      <void property="magia">
+       <string>Aard</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="br.com.hbsis.model.Magia">
+      <void property="descricao">
+       <string>A stream of fire shooting out of the user&apos;s palm</string>
+      </void>
+      <void property="magia">
+       <string>Igni</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="br.com.hbsis.model.Magia">
+      <void property="descricao">
+       <string>Creates a personal shield around Geralt, absorbing all of the damage and deflecting back at the enemy</string>
+      </void>
+      <void property="magia">
+       <string>Quen</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="br.com.hbsis.model.Magia">
+      <void property="descricao">
+       <string>Able to ressurect corpses to follow in battle</string>
+      </void>
+      <void property="magia">
+       <string>Necromancy</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="br.com.hbsis.model.Magia">
+      <void property="descricao">
+       <string>Can see a close future</string>
+      </void>
+      <void property="magia">
+       <string>Future Sight</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="br.com.hbsis.model.Magia">
+      <void property="descricao">
+       <string>Can enhance allies offensive attributes</string>
+      </void>
+      <void property="magia">
+       <string>Battle Cry</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="br.com.hbsis.model.Magia">
+      <void property="descricao">
+       <string>His sing can recover allies from injuries</string>
+      </void>
+      <void property="magia">
+       <string>Healing Voice</string>
+      </void>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void property="nome">
+   <string>Geralt</string>
+  </void>
+  <void property="ocupacao">
+   <string>Witcher</string>
+  </void>
+ </object>
+</java>
