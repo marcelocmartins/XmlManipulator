@@ -18,7 +18,7 @@ public class Pessoa {
     @Id
     private BigInteger id;
     private String nome;
-//    private int idade;
-//    private String ocupacao;
-//    private List<Magia> magias;
+    private int idade;
+    private String ocupacao;
+    private List<Magia> magias;
 }
